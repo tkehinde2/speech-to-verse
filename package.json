@@ -1,0 +1,35 @@
+{
+  "name": "speech-to-verse",
+  "version": "1.0.0",
+  "description": "Cross-platform church presentation app with speech-to-verse recognition",
+  "main": "./out/main/index.js",
+  "scripts": {
+    "dev": "electron-vite dev",
+    "build": "electron-vite build",
+    "preview": "electron-vite preview",
+    "setup": "node scripts/build-bible-db.mjs",
+    "build:bible-db": "node scripts/build-bible-db.mjs"
+  },
+  "dependencies": {
+    "sql.js": "^1.14.1"
+  },
+  "devDependencies": {
+    "@huggingface/transformers": "^3.8.1",
+    "@tailwindcss/vite": "^4.2.1",
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^25.4.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.4",
+    "better-sqlite3": "^12.6.2",
+    "electron": "^41.0.0",
+    "electron-vite": "^5.0.0",
+    "onnxruntime-web": "^1.24.3",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "tailwindcss": "^4.2.1",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.1",
+    "zustand": "^5.0.11"
+  }
+}

@@ -1,7 +1,0 @@
-numpy
-requests
-sounddevice
-screeninfo
-PyQt6
-openai-whisper
-urllib3
